@@ -46,7 +46,7 @@ const Home: React.FC = () => {
           <div className="lg:ml-auto flex items-center bg-gray-700 rounded-full pl-5">
             <div className="items-center">
               <p className="text-lg lg:text-xl mb-4 mr-4">5 anos de experiência</p>
-              <p className="text-lg lg:text-xl mb-4 mr-4">como dev Fullstack</p>
+              <p className="text-lg lg:text-xl mb-4 mr-4">como dev Full stack</p>
             </div>
             <img src="/foto.png" alt="Foto de perfil" className="w-60 h-60 rounded-full " />
           </div>
