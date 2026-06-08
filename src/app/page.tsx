@@ -11,13 +11,13 @@ const Home: React.FC = () => {
   const telefone = '+55 (48) 99614-5252';
   const conhecimentos: { nome: string; imagem: string; YearExp: number }[] = [
     { nome: "HTML", imagem: "/conhecimentos/html.png", YearExp: 3 },
+    { nome: "C#", imagem: "/conhecimentos/c.png", YearExp: 3 },
     { nome: "CSS", imagem: "/conhecimentos/css.png", YearExp: 3 },
     { nome: "JavaScript", imagem: "/conhecimentos/javascript.jpg", YearExp: 2 },
     { nome: "Java", imagem: "/conhecimentos/java.png", YearExp: 2 },
     { nome: "Next.JS", imagem: "/conhecimentos/next.png", YearExp: 1 },
     { nome: "Python", imagem: "/conhecimentos/python.png", YearExp: 1 },
     { nome: "Node.js", imagem: "/conhecimentos/nodejs.png", YearExp: 1 },
-    { nome: "C#", imagem: "/conhecimentos/c.png", YearExp: 1 },
     { nome: "Flutter", imagem: "/conhecimentos/flutter.png", YearExp: 1 },
     { nome: "Unity", imagem: "/conhecimentos/unity.png", YearExp: 1 },
     { nome: "Android", imagem: "/conhecimentos/android.png", YearExp: 1 },
@@ -56,8 +56,9 @@ const Home: React.FC = () => {
       <MainCard>
         <div className="text-center">
           <h2 className="text-2xl  lg:text-3xl font-bold mb-8">Sobre mim</h2>
-          <p className="text-left">Bacharel em Engenharia de Software formado pela Universidade do Estado de Santa Catarina. Com três anos de experiência como desenvolvedor, tenho trabalhado em projetos desafiadores que me permitiram aprimorar minhas habilidades e conhecimentos para produzir aplicações eficientes.
-            Estou animado para continuar minha jornada no campo da engenharia de software, utilizando os meus conhecimentos e sempre buscando aprender mais.</p>
+          <p className="text-left">Bacharel em Engenharia de Software pela Universidade do Estado de Santa Catarina. Possuo 5 anos de experiência como desenvolvedor nos ramos industrial e de dados. Também já trabalhei com o desenvolvimento de aplicações variadas para desktop, Android e Web, e conto com esses conhecimentos para uma ampla visão de resolução de problemas.
+          Atualmente trabalho no desenvolvimento de softwares para máquinas de corte de precisão e montagem em madeira, o que largamente aprimorou minha atenção aos detalhes e sensibilidade na busca pela eficiência. Assim aprendi que a perfeição da execução em milímetros é indispensável para o sucesso de um projeto, não apenas na indústria, mas em todas as áreas da vida.
+          Apesar do foco da minha prática ser o ramo industrial, a minha paixão é o desenvolvimento de jogos, o que faço em meu tempo livre como hobby. Uma das minhas metas pessoais é desenvolver um jogo eletrônico completo.</p>
         </div>
       </MainCard>
 
